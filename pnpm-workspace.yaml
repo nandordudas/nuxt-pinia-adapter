@@ -1,0 +1,4 @@
+shamefullyHoist: true
+
+# overrides:
+#   vite: npm:rolldown-vite@latest # https://github.com/nuxt/nuxt/issues/33613

@@ -1,0 +1,97 @@
+{
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  /*  */
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never"
+  },
+  "editor.formatOnSave": false,
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  /*  */
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  /*  */
+  "javascript.inlayHints.parameterNames.enabled": "literals",
+  "javascript.inlayHints.variableTypes.enabled": true,
+  /*  */
+  "js/ts.implicitProjectConfig.checkJs": false,
+  /*  */
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.format.semicolons": "remove",
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "literals",
+  "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifierEnding": "minimal",
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.suggest.completeFunctionCalls": false,
+  "typescript.tsc.autoDetect": "off",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.tsserver.maxTsServerMemory": 4096,
+  "typescript.tsserver.useSyntaxServer": "never",
+  "typescript.tsserver.watchOptions": {
+    "fallbackPolling": "dynamicPriorityPolling",
+    "synchronousWatchDirectory": true,
+    "watchFile": "useFsEventsOnParentDirectory"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  /*  */
+  "remote.portsAttributes": {
+    "3000": {
+      "label": "Application",
+      "protocol": "https"
+    }
+  },
+  /*  */
+  "vue.inlayHints.destructuredProps": true,
+  "vue.inlayHints.inlineHandlerLeading": true,
+  "vue.inlayHints.missingProps": true,
+  "vue.inlayHints.optionsWrapper": true,
+  "vue.inlayHints.vBindShorthand": true,
+  /*  */
+  "cSpell.allowCompoundWords": true,
+  "cSpell.language": "en-US",
+  "cSpell.words": [
+    "nuxt",
+    "ofetch",
+    "Pinia",
+    "vite"
+  ],
+  /*  */
+  "tailwindCSS.classAttributes": [
+    "active-class",
+    "class",
+    "color",
+    "fill",
+    "ui",
+    "enter-active-class",
+    "enter-active-class",
+    "enter-from-class",
+    "enter-to-class",
+    "leave-active-class",
+    "leave-from-class",
+    "leave-to-class",
+    "inactive-class"
+  ],
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.experimental.classRegex": [
+    ["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  /*  */
+  "errorLens.fontStyleItalic": true,
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.scrollbarHackEnabled": true
+}
